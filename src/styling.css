@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+}
+
+h3 {
+    margin-top: 2rem;
+}
+
+
+div.entities {
+    margin: 1rem;
+}
+
+div.entity {
+    margin-bottom: 0.3rem;
+}
+
+span.entity-kind {
+    font-style: italic;
+}
+
+div.switch {
+    display: inline-block;
+}
+
+div.switch span.selected {
+    text-decoration: underline;
+    text-decoration-color: rgb(182, 255, 192);
+}
+
+
+div.relations {
+    margin: 1rem;
+}
+
+div.relation {
+    margin-bottom: 0.3rem;
+}
+
+
+span.keyword {
+    color: rgb(100, 100, 100);
+}
+
+span.reference {
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+}
+
+span.value {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    background-color: rgb(182, 255, 192);
+    border-radius: 5px;
+}
+
+span.value-missing {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    background-color: rgb(209, 108, 108);
+    color: lightgray;
+    border-radius: 5px;
+}
+
+span.has-issues {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: rgb(228, 30, 23);
+}
+
+
+input {
+    font-size: 12pt;
+    border-radius: 5px;
+    border: 3px solid yellow;
+    background-color: lightyellow;
+    padding-left: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+select {
+    font-size: 12pt;
+}
+
+select option.action {
+    color: lightgray;
+    font-style: italic;
+}
+
+
+button {
+    font-size: 18pt;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(49, 161, 49);
+    cursor: pointer;
+}
+
+
+span.indication {
+    font-style: italic;
+}
+
+
+pre.code {
+    color: green;
+    background-color: black;
+    padding: 1rem;
+    float: left;
+    margin: 0;
+}
+

@@ -1,0 +1,25 @@
+{
+  "name": "twitch-sharp-dsl",
+  "version": "0.0.1",
+  "main": "src/index.jsx",
+  "scripts": {
+    "prebuild": "yarpm clean",
+    "build": "parcel build src/index.html",
+    "clean": "rm dist/* ||:",
+    "start": "parcel src/index.html"
+  },
+  "repository": "git@github.com:dslmeinte/twitch-sharp-dsl.git",
+  "author": "Meinte Boersma <meinte.boersma@gmail.com>",
+  "license": "ISC",
+  "private": false,
+  "dependencies": {
+    "mobx": "^6.0.0",
+    "mobx-react": "^7.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "yarpm": "^0.2.1"
+  }
+}
