@@ -1,5 +1,5 @@
 /*
- * Useful functions that are used by both the projection, as well as the code generator.
+ * Useful functions that are used by both the projection(s), as well as the code generation.
  */
 
 export const indefiniteArticleFor = (nextWord) => "a" + ((typeof nextWord === "string" && nextWord.match(/^[aeiouAEIOU]/)) ? "n" : "")

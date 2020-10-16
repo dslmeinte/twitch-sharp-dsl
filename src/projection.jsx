@@ -115,6 +115,7 @@ export const Projection = observer(({ value, ancestors }) => {
                     className="value quoted-type"
                     editState={editStateFor("cardinality")}
                     options={[ "at most one", "one or more" ].map((text) => ({ id: text, text: text, thing: text }))}
+                    // TODO  check possibilities
                     placeholderText="<cardinality>"
                 />&nbsp;
                 <EntityRef astObject={value} propertyName={"rightHand"} dataModel={dataModel(ancestors)} plural={settings["cardinality"].endsWith("more")} />&nbsp;
